@@ -1,0 +1,89 @@
+@media (max-width: 1020px) {
+  header {
+    background: linear-gradient(to left, #0c0c0cd4 15%, #0c0c0cd4),
+      url(../images/backgrounds.jpg);
+    background-position: 50% 38%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  html {
+    font-size: 60%;
+  }
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content h1 {
+    margin-top: 2rem;
+  }
+  .about-img {
+    order: 1;
+  }
+
+  .about-content {
+    order: 2;
+  }
+
+  .about-content #resume-btn {
+    margin: 2rem 0;
+  }
+  form div input {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .contact-container {
+    justify-content: center;
+  }
+
+  .footer-container nav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .certification-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 52%;
+  }
+  .skill-content {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 50%;
+  }
+  .skill-content {
+    min-width: 220px;
+  }
+
+  .service-box {
+    max-width: 220px;
+    padding: 1rem;
+  }
+
+  form div input {
+    width: 220px;
+  }
+
+  form textarea {
+    width: 220px;
+  }
+
+  .contact-box p {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+  }
+}
